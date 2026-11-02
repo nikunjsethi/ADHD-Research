@@ -11413,7 +11413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1030988286, guid: abc00000000012632749404281210848, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.403263
+      value: 3.403
       objectReference: {fileID: 0}
     - target: {fileID: 1030988286, guid: abc00000000012632749404281210848, type: 3}
       propertyPath: m_LocalPosition.y
@@ -38276,6 +38276,10 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1030985367, guid: abc00000000015365787584801111105, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38955,6 +38959,7 @@ GameObject:
   - component: {fileID: 1730839437}
   - component: {fileID: 1730839436}
   - component: {fileID: 1730839435}
+  - component: {fileID: 1730839438}
   m_Layer: 0
   m_Name: XR Origin (VR)
   m_TagString: Untagged
@@ -39002,7 +39007,7 @@ Transform:
   m_GameObject: {fileID: 1730839434}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39010,6 +39015,31 @@ Transform:
   - {fileID: 1279750089}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &1730839438
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730839434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1732328023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47538,7 +47568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1030988186, guid: abc00000000015224124398414735667, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.743266
+      value: 3.743
       objectReference: {fileID: 0}
     - target: {fileID: 1030988186, guid: abc00000000015224124398414735667, type: 3}
       propertyPath: m_LocalPosition.y
